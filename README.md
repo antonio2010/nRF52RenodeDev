@@ -1,11 +1,13 @@
 # nRF52RenodeDev
+
+# Table of Contents
 [[_TOC_]]
 
-## Description < a name="Introduction"></a>
+## Description <a name="Description"></a>
 This Repo includes the files necessary to build the Hello World application and
 start the Renode emulation of the application running on the nRF52840.
 
-## Specification
+## Specification <a name="Specification"></a>
 nRF Connect: 3.7.0<br>
 nRF Connect SDK v1.6.1<br>
 Renode Version 1.12.0.25160<br>
