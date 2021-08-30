@@ -1,37 +1,41 @@
 # nRF52RenodeDev
 
 # Table of Contents
-[[_TOC_]]
+1. [Description](description)
+2. [Specification](specification)
+3. [Installation](installation)
+4. [Running Application](application)
 
-## Description <a name="Description"></a>
+
+## Description <a name="description"></a>
 This Repo includes the files necessary to build the Hello World application and
 start the Renode emulation of the application running on the nRF52840.
 
-## Specification <a name="Specification"></a>
+## Specification <a name="specification"></a>
 nRF Connect: 3.7.0<br>
 nRF Connect SDK v1.6.1<br>
 Renode Version 1.12.0.25160<br>
 OS Version: Windows 10<br>
 
-## Installation
+## Installation <a name="installation"></a>
 
 This project assumes that the Installation of the nRF Connect SDK and Renode are
 already installed on the host system. If not see links below for installation
 instructions
 
 [Nordic nRF Connect](https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/gs_assistant.html#gs-assistant)<br>
-[Renode]((https://github.com/renode/renode)<br>
+[Renode](https://github.com/renode/renode)<br>
 
-## Running application
+## Running Application <a name="application"></a>
 
 1. Build binaries
-  1. Clone git repo
-  2. Open nRF Connect bash prompt
-  3. Navigate to the hello_world directory
-  4. Build project using
-  ```sh
-  west build -b nrf52840dk_nrf52840
-  ```
+   1. Clone git repo
+   2. Open nRF Connect bash prompt
+   3. Navigate to the hello_world directory
+   4. Build project using
+   ```sh
+   west build -b nrf52840dk_nrf52840
+   ```
 2. Open Renode
 3. Run Renode resc file using
 ```sh
