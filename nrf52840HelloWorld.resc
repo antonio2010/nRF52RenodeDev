@@ -1,0 +1,11 @@
+:name: NRF52840HelloWorld
+:description: This script runs nRF52840 Zephyr Hello World application.
+
+using sysbus
+
+mach create
+machine LoadPlatformDescription @platforms/cpus/nrf52840.repl
+
+showAnalyzer uart0
+
+sysbus LoadELF $ORIGIN\hello_world\build\zephyr\zephyr.elf
