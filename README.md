@@ -1,7 +1,7 @@
 # nRF52RenodeDev
 [[_TOC_]]
 
-## Description < a namme="Introduction"></a>
+## Description < a name="Introduction"></a>
 This Repo includes the files necessary to build the Hello World application and
 start the Renode emulation of the application running on the nRF52840.
 
